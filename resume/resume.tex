@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	10pt, % Default font size, can use 10pt, 10pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+%------------------------------------------------
+
+\name{Jonathan Swanson} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+% \address{Westford, MA 01886} % Main address
+
+\address{Full Stack Software Developer $\diamond$ Specialty in DevOps and Observability} % Secondary info
+
+\address{jonathan\_swanson99@pm.me \\ \faGithub/jSwanson99} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{University of Massachusetts Lowell} \hfill \textit{May 2022} \\ 
+	Bachelor of Science in Computer Science, Math Minor \\ \smallskip 
+	\textbf{GPA}: 3.90 (Major) 3.84 (Overall)
+
+    %--
+	%\textbf{Westford Academy} \hfill \textit{June 2018} \\ 
+	%High School Diploma \\
+	%GPA: 3.73 \smallskip \\
+	%High Honors/Honors most semesters
+    %--
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+    \begin{rSubsection}{Intercontinental Exchange}{May 2022 - Present}{Full Stack Software Developer}{Bedford, MA}
+        \item Built full-stack applications using React, Node.js, and Spring Boot
+        \item Led adoption of OpenTelemetry for distributed tracing across multiple application stacks
+        \item Supported applications in production using Splunk, Grafana, OpenTelemetry
+        \item Containerized applications with Podman (Docker)
+				\item Packaged Helm Charts for deployment onto OpenShift
+        \item Promoted from Associate Software Developer to Software Developer (2023)
+    \end{rSubsection}
+    
+    \begin{rSubsection}{Engaging Computing Group - UMass Lowell}{May 2019 - May 2022}{Front End Developer}{Lowell, MA}
+        \item Developed frontend components for a browser based IDE called MYR, using React with JavaScript
+        \item Assisted in the development of iSENSE, a data-visualization tool written with Ruby on Rails
+        \item Facilitated transition off of AWS onto on-prem facilities
+        \item Reduced CircleCI build time by implementing dependency caching
+    \end{rSubsection}
+
+%------------------------------------------------
+
+    \begin{rSubsection}{Kronos}{Jan 2020 - June 2020}{Angular Front End Developer (Co-op)}{Lowell, MA}
+        \item Developed frontend components in an Agile environment using Angular 8 with Typescript
+        \item Wrote portable code by using a hexagonal architecture
+        \item Used various industry standard libraries \& frameworks: ES6 with Typescript, Lodash, RxJS, WebSockets
+    \end{rSubsection}
+    
+    %------------------------------------------------
+    
+    \begin{rSubsection}{Code Wiz}{Nov 2017 - May 2018}{Programming Tutor}{Westford, MA}
+        \item Tutored children ages 8-14: Python basics, JavaScript animations
+        \item Worked with children of all needs, from advanced \& independent children to those with special needs and learning accommodations
+    \end{rSubsection}
+
+%------------------------------------------------
+
+%	\begin{rSubsection}{Market Basket}{Sept 2014 - September 2019}{Assistant Manager}{Westford, MA}
+%		\item Promoted from cashier to assistant manager after 2.5 years
+%		\item Assisted department managers in running checkout
+%	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Personal Projects}
+    \begin{tabular}{@{} >{\bfseries}l @{\hspace{2em}} l @{}}
+        Python \& AI & AI knowledge base integrating LLMs via Model Context Protocol \\
+				& Machine learning stock trend classification \& PDF generation cli\\
+        Infrastructure & Kubernetes clusters provisioned with Terraform on Proxmox \\
+        Networking & Network observability pipeline using VYOS, eBPF, and OpenTelemetry \\
+        React & Stock \& Options visualization dashboard \\
+    \end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Skills}
+    \begin{tabular}{@{} >{\bfseries}l @{\hspace{2em}} l @{}}
+        Languages & TypeScript/JavaScript, Java, Python, Go \\
+        Containers & Docker/Podman, Kubernetes/OpenShift, ArgoCD \\
+        Observability & Production monitoring \& debugging using Splunk, Grafana, OpenTelemetry \\
+        SDLC & Git, Jenkins, Jira, Confluence \\
+        Operating Systems & Deploying onto RHEL, Ubuntu; Development on Fedora \& MacOS \\
+				Databases & Oracle \& Clickhouse; SQL
+    \end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

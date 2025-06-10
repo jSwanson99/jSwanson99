@@ -1,16 +1,17 @@
-## Hi there 👋
+## Hi there
 
-<!--
-**jSwanson99/jSwanson99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a professional software developer with 4 years of experience writing Node.js (Express, and Nest),
+Java, and React applications. I also have experience writing Python and Go, primarily for personal projects. 
 
-Here are some ideas to get you started:
+**Current Projects**
+- Terraform for provisioning VMs onto Proxmox and for building Kubernetes clusters
+- Learning about using Helm Charts to package application stacks
+- Using OpenTelemetry and ClickHouse to monitor my home network
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Learning Next**
+- Go
+- HTMX
+
+**Links**
+- [📄 Resume (PDF)](./resume/resume.pdf)
+- [📧 Contact](mailto:jonathan_swanson99@pm.me)
