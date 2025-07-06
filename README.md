@@ -7,9 +7,9 @@ Java, and React applications. I also have experience writing Python and Go, prim
 - Terraform for provisioning VMs onto Proxmox and for building Kubernetes clusters
 - Learning about using Helm Charts to package application stacks
 - Using OpenTelemetry and ClickHouse to monitor my home network
+- Learning Go
 
 **Learning Next**
-- Go
 - HTMX
 
 **Links**
